@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+nav{
+    background: rgb(77, 82, 76);
+    display:flex;
+    position: fixed;
+    opacity: 80%;
+    justify-content: space-between;
+    width:100%;
+    color:rgb(1, 0, 0);
+}
+.lui{
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(1, 0, 0);
+    font-size: 25px;
+
+}
+
+.nav-links{
+    transition:1s;
+    width: 39%;
+}
+.nav-links ul{
+    width: 100%;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+div.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 25px;
+}
+
+.nav-links li:hover{
+    text-decoration: underline;
+    background: rgb(101, 107, 98);
+}
+.s1{
+    padding: 239px;
+    background-size: 700px;
+    background-image: url('./img/gostoso.jpg');
+    min-height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(138, 138, 138);
+}
+div.padding2{
+    background: rgb(255, 255, 255);
+    height: 10px;
+}
+.s2{
+    padding-top:0;
+    background-size: 700px;
+    background-image: url('./img/e1bcdd8125660d077d6422967d46f127.jpg');
+    min-height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(165, 139, 83);
+}
+.s3{
+    margin-top:10px;
+    background-size: 700px;
+    background-image: url('./img/d4ea3e76afffce061a083292dfa65db0.jpg');
+    min-height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(92, 89, 73);
+}
+.s4{
+    margin-top:10px;
+    background-size: 700px;
+    background-image: url('./img//4385a679c4e1ef471c2256fcd662787a.jpg');
+    min-height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(148, 144, 144);
+}
+
+
+
+
+
+@media screen and (max-width: 1300px){
+   ::-webkit-scrollbar{
+        display:none;
+    } 
+    nav{
+        opacity: 1;
+        justify-content: center;
+    }
+    .lui{
+        font-size: 100px;
+        color:rgb(1, 0, 0);
+    }
+    .hamburger{
+        position: absolute;
+        top: 28px;
+        right: 4rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100px;
+        height: 60px;
+
+    }
+    div.line{
+        height: 13px;
+        width: 100%;
+        border-radius: 20px;
+        background:black;
+    }
+    .hamburger{
+        display: flex;
+        cursor: pointer;
+
+    }
+    div.nav-links{
+        display: none;
+        position: fixed;
+        width: 100%;
+        justify-content: center;
+        background: rgb(77, 82, 76);
+        translate:translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links a{
+        font-size: 50px;
+        color:rgb(1, 0, 0);
+    }
+    .nav-links li a{
+        text-align: center;
+        flex-direction: column;
+        text-decoration: none;
+        padding: 250px;
+        display: block;
+    }
+    .nav-links ul{
+        width: 100%;
+        flex-direction: column;
+        list-style: none;
+
+    }
+    .nav-links.active{
+        top: 115px;
+        width: 100%;
+        transform: translateX(0%);
+        display: flex;
+        position: fixed;
+
+    }
+    @keyframes navLinksFade {
+        from{
+            opacity: 0;
+            transform: translatex(50px);
+        }
+        to{
+            opacity: 1;
+            transform:translateX(0)
+        }
+    }
+    div.padding1{
+        background: rgb(182, 182, 182);
+        height: 115px;
+    }
+    div.padding2{
+        background: rgb(255, 255, 255);
+        height: 10px;
+    }
+    .ss{
+        padding-top:0;
+        background-size: 1300px;
+    }
+    .s1{
+        background-size: 700px;
+    }
+
+}
+
+/*
+
+        CREATOR.HMTL
+
+*/
+
+
+
+section.creator1{
+    background-color:rgb(212, 212, 212);
+    height: 658px;
+}
+h2.luid1text{
+    padding-top: 40px;
+    font-size: 65px;
+    margin-left: 22px;
+    text-align: center;
+}
+.luid2text{
+    padding-top: 25px;
+    margin-left: 22px;
+    font-size: 35px;
+    text-align: center;
+
+}
+button.luid3button{
+    margin:auto;
+    display:flex;
+    display:grid;
+    margin-top: 50px;
+    background: rgb(15, 15, 245);
+    color: black;
+    padding: 20px 100px;
+    border-radius: 40px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    outline: none;
+}
+.abutton3{
+    text-decoration: none;
+}
+button.luid3button:hover{
+    background: rgb(19, 19, 249);
+}
+@media screen and (max-width: 1263px){
+
+    h2.luid1text{
+        padding-top: 200px;
+        margin-left: 20px;
+        font-size: 60px;
+    }
+    .luid2text{
+        padding-top: 10px;
+        margin-left: 22px;
+        font-size: 40px;
+
+    }
+    button.luid3button{
+        display: flex;
+        display: grid;
+        margin: auto;
+        background: rgb(15, 15, 245);
+        color: black;
+        padding: 50px 150px;
+        border-radius: 40px;
+        border: none;
+        font-size: 40px;
+        margin-top:20px;
+        cursor: pointer;
+        outline: none;
+    }
+    button.luid3button:hover{
+        background: rgb(19, 19, 249);
+    }
+}
+
+/*
+
+        BILLIE ELISH
+
+*/
+nav.bnav{
+    height: 25px;
+    background: none;
+}
+.billie1{
+        background: hsl(0, 2%, 54%);
+        height: 0;
+}
+section.billie1{
+    height: 2090px;
+    background-color:  rgb(0, 114, 38);
+}
+section.billie1 div.b1{
+        background-size: 1400px;
+        min-height: 660px;
+        background-image: url('./img/images\ \(25\).jpg');
+        background-repeat: no-repeat;
+        margin-left:0;
+    }
+
+a.billielogo{
+        padding-left: 30px;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: chartreuse;
+        font-size: 25px;
+
+}
+
+.billie1text{
+        padding-top: 10px;
+        font-size: 65px;
+        margin-left: 22px;
+        text-align: center;
+    }
+div.b2{
+        margin-top: 10px;
+        background-size: 810px;
+        min-height: 490px;
+        background-image: url('./img/unknown-1.png');
+        background-repeat: no-repeat;
+        margin-left: 260px;
+    }
+.billie2text{
+        padding-top: 10px;
+        font-size: 65px;
+        margin-left: 22px;
+        text-align: center;
+    }
+div.b3{
+            background-size: 1310px;
+            min-height: 560px;
+            background-image: url('./img/images\ \(29\).jpg');
+            background-repeat: no-repeat;
+            margin-left: 20px;
+    }
+div.b4{
+        /*video da billie*/
+    }
+    button.buttonbsite{
+        margin:auto;
+        display:flex;
+        display:grid;
+        background: rgb(26, 224, 92);
+        color: black;
+        padding: 25px 50px;
+        margin-top: 60px;
+        border-radius: 40px;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        outline: none;
+    }
+    button.buttonbsite:hover{
+        background-color: rgb(25, 255, 102);
+    }
+    .abuttonb{
+        text-decoration: none;
+    }
+
+@media screen and (max-width:1263px ){
+    nav.bnav{
+        opacity: 1;
+        justify-content: center;
+        height: 120;
+        background: fixed;
+        background-color: rgb(77, 82, 76);
+    }
+
+    a.billielogo{
+        padding-top: 15px;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: chartreuse;
+        font-size: 70px;
+
+    }
+    .bb{
+        padding-top:2px;
+        background-size: 1300px;
+    }
+    div.b2{
+        margin-left: 90px;
+    }
+    div.b3{
+        margin-left: 0;
+        background-size: 1200px;
+        min-height: 500px;
+    }
+    section.billie1{
+        height: 2050px;
+    }
+    .abuttonb{
+        text-decoration: none;
+    }
+    .billie2text{
+        font-size: 50px
+    }
+    button.buttonbsite{
+        margin:auto;
+        display:flex;
+        display:grid;
+        background: rgb(26, 224, 92);
+        color: black;
+        padding: 25px 50px;
+        margin-top: 70px;
+        border-radius: 40px;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        outline: none;
+    }
+    button.buttonbsite:hover{
+        background-color: rgb(25, 255, 102);
+    }
+    button.luid3button:hover{
+            background: rgb(19, 19, 249);
+    }
+}
