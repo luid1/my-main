@@ -419,3 +419,78 @@ div.b4{
             background: rgb(19, 19, 249);
     }
 }
+
+/*
+
+        LUIBOT
+
+*/
+@media (max-width: 70000px){ 
+    ::-webkit-scrollbar{
+        display:none;
+    }
+
+    .luibot1{
+        height: 9000px;
+        background: rgb(212, 212, 212);
+    }
+    .luibot2text{
+        text-align: center;
+        padding: 100px;   
+    }
+    }
+    @media (max-width: 1300px){
+        .luibot2text{
+            padding:200px;
+            font-size: 60px;
+        }
+    }
+
+/*
+    
+    SUPPORT
+
+*/
+
+.support1{
+    height: 900px;
+    background: rgb(212, 212, 212);
+}
+h2.support2text{
+    font-size:60px;
+    padding-top:150px;
+    text-align: center;
+}
+
+
+
+.auto-box li{
+    width: 100%;
+    padding-left:30px;
+    margin-top:10px;
+}
+input.support3input{
+    display:flex;
+    display:grid;
+    margin:auto;
+    padding: 2px 260px;
+    margin-top:30px;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.howtousethis{
+    margin:0;
+}
+.wrapper .auto-box{
+        background: white;
+        width: 100%;
+        padding-top: 30px;
+        max-width: 655px;
+        margin: auto;
+        text-decoration: none;
+        outline: none;
+        list-style-type: none;
+        font-size: 30px;
+    }
