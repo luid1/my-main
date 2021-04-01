@@ -27,10 +27,12 @@ nav{
 }
 
 .nav-links{
+    color: rgb(1, 1, 1);
     transition:1s;
     width: 39%;
 }
 .nav-links ul{
+    color: rgb(1, 1, 1);
     width: 100%;
     margin:0;
     padding:0;
@@ -38,15 +40,16 @@ nav{
 }
 
 div.nav-links li{
+    color: rgb(1, 1, 1);
     list-style: none;
 }
 
 .nav-links a{
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(1, 1, 1);
     text-decoration: none;
     padding: 25px;
-    margin: 10vh;
+    margin: 8vh;
 }
 
 .nav-links li:hover{
