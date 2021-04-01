@@ -46,6 +46,7 @@ div.nav-links li{
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 25px;
+    margin: 10vh;
 }
 
 .nav-links li:hover{
